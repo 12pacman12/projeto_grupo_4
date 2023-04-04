@@ -37,6 +37,7 @@
     <img src="https://user-images.githubusercontent.com/88584363/229744423-89881045-0d4f-4845-9520-1156dcf86afe.jpg">
 </div>
 &nbsp;
+
 - Cadastrado
 
 <div style=" margin-bottom: 50px" align="center" >
