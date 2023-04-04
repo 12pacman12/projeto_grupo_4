@@ -91,6 +91,6 @@ Para novas implementações, deixamos algumas possibilidades, como:
 ## :busts_in_silhouette: Grupo 4
 - [Alfredo Gutemberg](https://www.linkedin.com/in/alfredo-gutemberg-823505170/)
 
-- (Luiz Henrique Oliveira)[]
+- (Luiz Henrique Oliveira)[https://www.linkedin.com/]
 
-- (Mario Menezes)[]
+- (Mario Menezes)[https://www.linkedin.com/]
