@@ -1,8 +1,10 @@
 ![Banner](./img/Fotovolts%20News-banner.png)
 
 ## :memo: Sobre
+Fotovolts News será uma página de informação sobre as possibilidades e impactos ambientais e financeiros, individuais e coletivos, da energia solar.
 
 ## :dart: Objetivo
+Proporcionar o conhecimento da energia solar através de informes sobre a tecnologia e seu impacto no meio ambiente, nas finanças pessoais e sociais.
 
 ## :art: Figma
 - [Design](https://www.figma.com/file/tX4ScvyZ1UJ2yYLf1UQBBH/Projeto-Grupo-4?node-id=45%3A109&t=MAapHmZJuWfq8W8K-1)
@@ -54,23 +56,27 @@
 &nbsp;
 
 
-## Fluxo
+## :twisted_rightwards_arrows: Fluxo
 
 <div style=" margin-bottom: 50px" align="center" >
     <img src="https://user-images.githubusercontent.com/88584363/229747576-f7988266-1e74-4a73-9c41-d1bf09659e1b.jpg">
 </div>
 
 ## :whale2: Deploy
+Para acessar o projeto: [Link](https://github.com/12pacman12/projeto_grupo_4)
 
-## Tecnologias
+## :hammer_and_wrench: Tecnologias
+- Html
+- Css
+- Javascript
 
-## Instalação
+## :gear: Instalação
 ```
 # clone o repositório em alguma pasta em sua máquina
 $ git clone https://github.com/12pacman12/projeto_grupo_4.git
 ```
 
-## Novas versões
+## :new: Novas versões
 Para novas implementações, deixamos algumas possibilidades, como:
 - Versão 1.2
     * Perfis: mostrar os perfis dos colunistas, colaboradores e usuários de forma mais detalhada.
@@ -82,9 +88,9 @@ Para novas implementações, deixamos algumas possibilidades, como:
     * Curtir e salvar: Curtir e/ou salvar um artigo como favorito
 
 
-## Grupo 4
-[Alfredo Gutemberg](https://www.linkedin.com/in/alfredo-gutemberg-823505170/)
+## :busts_in_silhouette: Grupo 4
+- [Alfredo Gutemberg](https://www.linkedin.com/in/alfredo-gutemberg-823505170/)
 
-(Luiz Henrique Oliveira)[]
+- (Luiz Henrique Oliveira)[]
 
-(Mario Menezes)[]
+- (Mario Menezes)[]
