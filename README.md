@@ -1,6 +1,6 @@
-# Fotovolts News
+![Banner](./img/Fotovolts%20News-banner.png)
 
-## Sobre
+## :memo: Sobre
 
 ## :dart: Objetivo
 
@@ -9,7 +9,7 @@
 - [FigJam](https://www.figma.com/file/irQiDfznIT9OeN0g6S1rie/Projeto-Grupo-4?node-id=0%3A1&t=lmm7ZWxxP8AGQicM-1)
 - [Protótipo](https://www.figma.com/proto/tX4ScvyZ1UJ2yYLf1UQBBH/Projeto-Grupo-4?page-id=0%3A1&node-id=1-52&viewport=2685%2C-620%2C0.56&scaling=min-zoom&starting-point-node-id=1%3A52)
 
-## Imagens demo
+## :camera: Visuais e Telas
 
 - Home
 
@@ -60,9 +60,15 @@
     <img src="https://user-images.githubusercontent.com/88584363/229747576-f7988266-1e74-4a73-9c41-d1bf09659e1b.jpg">
 </div>
 
-## Deploy
+## :whale2: Deploy
+
+## Tecnologias
 
 ## Instalação
+```
+# clone o repositório em alguma pasta em sua máquina
+$ git clone https://github.com/12pacman12/projeto_grupo_4.git
+```
 
 ## Novas versões
 Para novas implementações, deixamos algumas possibilidades, como:
