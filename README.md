@@ -16,29 +16,33 @@
 <div style=" margin-bottom: 50px" align="center" >
     <img src="https://user-images.githubusercontent.com/88584363/229735166-622d764c-90cf-4305-bde5-a2462fb85fa9.jpg" width="300px">
 </div>
+&nbsp;
 
 - Artigos
 <div style=" margin-bottom: 50px" align="center" >
     <img src="https://user-images.githubusercontent.com/88584363/229738504-c32c4ac2-a94d-4134-91c5-2e2da3e7db2b.jpg">
 </div>
+&nbsp;
 
 - Ler artigo
 
 <div style=" margin-bottom: 50px" align="center" >
     <img src="https://user-images.githubusercontent.com/88584363/229743900-359fe33b-1a5b-4f74-8e61-488a474fd16e.jpg">
 </div>
+&nbsp;
 
 - Cadastro
 
 <div style=" margin-bottom: 50px" align="center" >
     <img src="https://user-images.githubusercontent.com/88584363/229744423-89881045-0d4f-4845-9520-1156dcf86afe.jpg">
 </div>
-
+&nbsp;
 - Cadastrado
 
 <div style=" margin-bottom: 50px" align="center" >
     <img src="https://user-images.githubusercontent.com/88584363/229747033-9568842f-6a04-4090-9e93-d86299a6660b.jpg">
 </div>
+&nbsp;
 
 
 - Sobre
@@ -46,6 +50,7 @@
 <div style=" margin-bottom: 50px" align="center" >
     <img src="https://user-images.githubusercontent.com/88584363/229747313-07a69a5c-fe87-4881-ba9c-f62396408e62.jpg">
 </div>
+&nbsp;
 
 
 ## Fluxo
