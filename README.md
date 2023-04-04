@@ -60,6 +60,10 @@
     <img src="https://user-images.githubusercontent.com/88584363/229747576-f7988266-1e74-4a73-9c41-d1bf09659e1b.jpg">
 </div>
 
+## Deploy
+
+## Instalação
+
 ## Novas versões
 Para novas implementações, deixamos algumas possibilidades, como:
 - Versão 1.2
