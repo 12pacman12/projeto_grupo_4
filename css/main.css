@@ -46,7 +46,7 @@ li {
   align-items: center;
 }
 
-a {
+nav li a {
   color: #f2f2f2;
   text-decoration: none;
   font-size: 24px;
@@ -501,4 +501,151 @@ footer {
   align-items: center;
   justify-content: center;
   font-weight: 700;
+}
+
+/* Componentes */
+
+.componentes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.componentes-container__title {
+  width: 680px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  transform: translate(0px, -300px);
+}
+.first-componentes-container-design {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-340px, 100px);
+  /* z-index: 1; */
+}
+
+.first-componentes-container {
+  width: 1170px;
+  height: 863px;
+  border-radius: 10px;
+  background: #aed3f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .second-componentes-container {
+  width: 1170px;
+  height: 863px;
+  border-radius: 10px;
+  background: #aed3f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+} */
+
+.second-componentes-container-item {
+  width: 1130px;
+  height: 460px;
+  border-radius: 10px;
+  border: solid 20px #aed3f2;
+  background: #aed3f2;
+  margin-top: 20px;
+  display: flex;
+}
+
+.second-componentes-container__inversores {
+  width: 1130px;
+  height: 600px;
+  border-radius: 10px;
+  border: solid 20px #aed3f2;
+  background: #aed3f2;
+  margin-top: 20px;
+  display: flex;
+}
+
+.second-componentes-container-item__text{
+  width: 700px;
+  height: 335px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.second-componentes-container-item__text-title {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.second-componentes-container-item__img-01 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/painel-solar.jpg);
+  background-size: cover;
+}
+
+.second-componentes-container-item__img-02 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/inversores.webp);
+  background-size: cover;
+}
+
+.second-componentes-container-item__img-03 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/materiais-eletricos.webp);
+  background-size: cover;
+}
+
+.second-componentes-container-item__img-04 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/disjuntor.webp);
+  background-size: cover;
+}
+
+.second-componentes-container-item__img-05 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/conectores-cabeamento.webp);
+  background-size: cover;
+}
+
+.second-componentes-container-item__img-06 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/estrutura.png);
+  background-size: cover;
+}
+
+.second-componentes-container-item__img-07 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/medidor.jpg);
+  background-size: cover;
+}
+
+.second-componentes-container-item__img-08 {
+  height: 464px;
+  width: 440px;
+  border-radius: 10px;
+  background: url(../img/monitoramento.jpg);
+  background-size: cover;
 }
