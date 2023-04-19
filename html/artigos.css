@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: royalblue;
+  margin: 0 auto;
+}
+header section div img {
+  margin: 0 0 0 100px;
+}
+span {
+  margin: 0 100px 0 -80px;
+  background-color: rgb(108, 191, 108);
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+main h1 {
+  align-items: center;
+}
+.um {
+  display: flex;
+  background-color: royalblue;
+}
