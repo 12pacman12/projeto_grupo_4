@@ -36,15 +36,14 @@ ul {
 }
 
 li {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
-  margin-left: 16px;
-  /* width: 160px;
-  height: 45px; */
+  margin: 10px;
+  width: 160px;
+  height: 45px;
   background: #6fbf77;
+  border-radius: 10px;
   align-items: center;
-  border-radius: 5px;
-  padding: 5px 20px;
 }
 
 nav li a {
