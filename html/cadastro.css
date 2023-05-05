@@ -86,6 +86,7 @@ input {
   font-size: 30px;
   padding: 5px 20px;
 }
+
 .btn:hover {
   color: blue;
   background-color: black;
@@ -126,6 +127,14 @@ header section div {
    margin: 0 0 0 100px; 
   width: 260px;
   height: 60px;
+=======
+span a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 24px;
+
+>>>>>>> eb3f4e4712228d167b72f4eafa05d9b062b60b18
 }
 main {
   height: calc(100vh - 80px - 58px);
