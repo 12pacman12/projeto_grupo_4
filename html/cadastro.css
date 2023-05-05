@@ -17,28 +17,133 @@ header section {
   justify-content: space-between;
   align-items: center;
   width: 1170px;
-
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 header section div {
-  /* margin: 0 0 0 100px; */
   width: 260px;
   height: 60px;
 }
-span {
-  margin: 0 0 0 16px;
-  background-color: #6fbf77;
-  border-radius: 5px;
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+main {
+  height: calc(100vh - 80px - 58px);
+  overflow: hidden;
+}
+
+.conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 53px;
+}
+.conteudo p {
+  width: 60%;
+  text-align: center;
+}
+.conteudo h1 {
+  width: 30%;
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  background-color: #b6dfb0;
+  padding: 30px;
+  border-radius: 10px;
+  /* gap: 1rem; */
+}
+input {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.teste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+.btn {
+  color: white;
+  text-decoration: none;
+  background-color: #d19804;
+  border-radius: 20px;
+  font-size: 30px;
   padding: 5px 20px;
 }
-span a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 400;
+.btn:hover {
+  color: blue;
+  background-color: black;
+}
+
+footer {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 58px;
+  align-items: center;
+}
+
+/*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  height: 80px;
+  background-color: #006dc5;
+  justify-content: center;
+}
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+
+   margin: 0 auto; 
+
+header section div {
+   margin: 0 0 0 100px; 
+  width: 260px;
+  height: 60px;
 }
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  height: calc(100vh - 80px - 58px);
 }
+.box-central {
+  display: flex;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+} */
+/* .espaço {
+  background-color: burlywood;
+  height: 53px;
+} */
