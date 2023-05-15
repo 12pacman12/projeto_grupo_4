@@ -37,12 +37,13 @@ main {
   margin: 30px;
 }
 
-form {
+form,
+#message-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 40%;
-  height: 40%;
+  height: 50%;
   background-color: #b6dfb0;
   padding: 30px;
   border-radius: 10px;
@@ -81,58 +82,10 @@ input {
   background-color: white;
 }
 
-/*  {
-  margin: 0;
-  padding: 0;
-  box-sizing: 0;
+#message-section {
+  display: none;
 }
-body {
-  font-family: "Roboto", sans-serif;
-}
-header {
-  display: flex;
-  height: 80px;
-  background-color: #006dc5;
-  justify-content: center;
-}
-header section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1170px;
 
-   margin: 0 auto; 
-
-header section div {
-   margin: 0 0 0 100px; 
-  width: 260px;
-  height: 60px;
-=======
-span a {
-  text-decoration: none;
-  color: #f2f2f2;
+#nome-usuario {
   font-weight: bold;
-  font-size: 24px;
-
->>>>>>> eb3f4e4712228d167b72f4eafa05d9b062b60b18
 }
-main {
-  height: calc(100vh - 80px - 58px);
-}
-.box-central {
-  display: flex;
-}
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer {
-  background-color: blue;
-  display: flex;
-  justify-content: center;
-} */
-/* .espaço {
-  background-color: burlywood;
-  height: 53px;
-} */
