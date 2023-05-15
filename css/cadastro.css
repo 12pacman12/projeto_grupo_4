@@ -5,6 +5,9 @@ body {
 main {
   height: calc(100vh - 57.5px - 120px);
   margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .titulo-cadastro {
