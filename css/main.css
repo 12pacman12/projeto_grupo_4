@@ -10,7 +10,6 @@ body {
 body a {
   text-decoration: none;
   color: #011728;
-
 }
 .first-container {
   width: 1170px;
@@ -261,8 +260,8 @@ body a {
 
 .third-container a {
   text-decoration: none;
-  color: #e92b2b;
-  
+  color: #333333;
+  font-weight: bold;
 }
 
 .circulo-borda {
@@ -462,8 +461,6 @@ body a {
 }
 
 /* Componentes */
-
-
 
 footer {
   margin-top: 24px;

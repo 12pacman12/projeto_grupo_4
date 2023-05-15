@@ -1,3 +1,21 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+.second-componentes-container p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  margin-right: 20px;
+}
+
+
 .first-container {
   width: 1170px;
   height: 900px;
@@ -297,14 +315,65 @@
     display: flex;
   }
 
-  .second-componentes-container-item-5 {
+  .second-componentes-container-item-3 {
     width: 1130px;
-    height: 600px;
+    height: 640px;
     border-radius: 10px;
     border: solid 20px #aed3f2;
     background: #aed3f2;
     margin-top: 20px;
     display: flex;
+  }
+
+  .second-componentes-container-item-4 {
+    width: 1130px;
+    height: 640px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-5 {
+    width: 1130px;
+    height: 750px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-6{
+    width: 1130px;
+    height: 750px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-7{
+    width: 1130px;
+    height: 800px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-8{
+    display: flex;
+    width: 1130px;
+    height: 1030px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   
   .second-componentes-container__inversores {
@@ -394,6 +463,6 @@
     background-size: cover;
   }
 
-  #paineis, #inversores, #materiais-eletricos, #disjuntores {
+  #paineis, #inversores, #materiais-eletricos, #disjuntores, #conectores, #estrutura, #medidor, #monitoramento {
     height: 100px;
   }
