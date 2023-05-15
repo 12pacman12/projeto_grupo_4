@@ -7,18 +7,32 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+body a {
+  text-decoration: none;
+}
+
 .container {
   margin-top: 140px;
 }
 
-.titulo {
+.titulo-container {
+
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 50px;
-  /* height: 306px; */
+  margin-bottom: 20px;
+}
+
+.titulo-container p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 /* .espaço01 {
   height: 27px;
