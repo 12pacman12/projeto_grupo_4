@@ -12,7 +12,7 @@ body a {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 16px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 
@@ -53,7 +53,7 @@ body a {
 
 .third-container a {
   text-decoration: none;
-  color: #e92b2b;
+  /* color: #e92b2b; */
 }
 
 .circulo-borda {
@@ -365,15 +365,23 @@ body a {
     display: flex;
   }
 
+  .second-componentes-container-item-8-cont {
+    width: 1130px;
+    height: 900px;
+    background: #aed3f2;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+  }
+
   .second-componentes-container-item-8{
     display: flex;
-    width: 1130px;
-    height: 1030px;
-    border-radius: 10px;
-    border: solid 20px #aed3f2;
-    background: #aed3f2;
+    /* border: solid 20px #aed3f2; */
     margin-top: 20px;
-    margin-bottom: 30px;
+    border-radius: 10px;
+
+
   }
   
   .second-componentes-container__inversores {
@@ -389,7 +397,7 @@ body a {
   .second-componentes-container-item__text{
     width: 700px;
     height: 335px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-weight: 400;
     font-size: 24px;
   }
@@ -461,6 +469,7 @@ body a {
     border-radius: 10px;
     background: url(../img/monitoramento.jpg);
     background-size: cover;
+    margin: 0 0 20px 20px;
   }
 
   #paineis, #inversores, #materiais-eletricos, #disjuntores, #conectores, #estrutura, #medidor, #monitoramento {
