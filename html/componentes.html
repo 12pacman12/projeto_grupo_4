@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <!-- <link rel="stylesheet" href="../css/main.css" /> -->
+    <link rel="shortcut icon" href="../ico/favicom.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/header.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
       rel="stylesheet"
-    /> -->
+    />
+    <link rel="stylesheet" href="../css/componentes.css" />
+    <link rel="stylesheet" href="../css/footer.css">
   </head>
   <body>
     <header>
-      <div>
-        <div>
+      <div class="logo-container">
+        <div class="logo-container__img">
           <img src="../img/logo.svg" alt="" />
           <img src="../img/logo-letter.svg" alt="" />
         </div>
@@ -30,57 +34,58 @@
         </nav>
       </div>
     </header>
-    <main>
-      <section >
-        <h2 >
+    <main class="componentes">
+      <section class="first-componentes-container">
+        <h2 class="componentes-container__title" id="topo">
           Você conhece todos os componentes de um sistema fotovoltaico?
         </h2>
-        <div>
-          <div ></div>
-          <div >
-            <img src="../img/sun.png" alt="" />
+        <div class="first-componentes-container-design">
+          <div class="circulo-borda"></div>
+          <div class="circulo-maior">
+            <img class="sun" src="../img/sun.png" alt="" />
           </div>
-          <a href="#paineis">
-            <div><p>1</p></div>
+          <a class="circulo-menor-1" href="#paineis">
+            <div><p class="circulo-texto">1</p></div>
           </a>
-          <a href="#inversores">
-            <div><p>2</p></div>
+          <a class="circulo-menor-2" href="#inversores">
+            <div><p class="circulo-texto">2</p></div>
           </a>
-          <a href="#materiais-eletricos">
-            <div><p>3</p></div>
+          <a class="circulo-menor-3" href="#disjuntores">
+            <div><p class="circulo-texto">4</p></div>
           </a>
-          <a href="#monitoramento">
-            <div><p>8</p></div>
+          <a class="circulo-menor-8" href="#materiais-eletricos">
+            <div><p class="circulo-texto">3</p></div>
           </a>
-          <a href="#disjuntores">
-            <div><p>4</p></div>
+          <a class="circulo-menor-4" href="#estrutura">
+            <div><p class="circulo-texto">6</p></div>
           </a>
-          <a href="#conectores">
-            <div><p>5</p></div>
+          <a class="circulo-menor-5" href="#conectores">
+            <div><p class="circulo-texto">5</p></div>
           </a>
-          <a href="#estrutura">
-            <div><p>6</p></div>
+          <a class="circulo-menor-6" href="#monitoramento">
+            <div><p class="circulo-texto">8</p></div>
           </a>
-          <a href="#medidor">
-            <div><p>7</p></div>
+          <a class="circulo-menor-7" href="#medidor">
+            <div><p class="circulo-texto">7</p></div>
           </a>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="tronco-1"></div>
+          <div class="tronco-2"></div>
+          <div class="tronco-3"></div>
+          <div class="tronco-4"></div>
+          <div class="tronco-5"></div>
+          <div class="tronco-6"></div>
+          <div class="tronco-7"></div>
+          <div class="tronco-8"></div>
         </div>
       </section>
-      <section>
-        <div>
-          <div>
-            <h2>
+      <section class="second-componentes-container">
+        <div id="paineis"></div>
+        <div class="second-componentes-container-item">
+          <div class="second-componentes-container-item__text">
+            <h2 class="second-componentes-container-item__text-title">
               1. Paineis Solares
             </h2>
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               Painéis solares, também conhecidos como módulos fotovoltaicos, são
               dispositivos que convertem a luz solar em eletricidade. Eles são
               compostos por células solares, que são feitas de materiais
@@ -94,22 +99,23 @@
             </p>
             <a href="#topo">Voltar</a>
           </div>
-          <div></div>
+          <div class="second-componentes-container-item__img-01"></div>
         </div>
-        <div>
-          <div></div>
-          <div>
-            <h2>
+        <div id="inversores"></div>
+        <div class="second-componentes-container__inversores">
+          <!-- <div class="second-componentes-container-item__img-02"></div> -->
+          <div class="second-componentes-container-item__text">
+            <h2 class="second-componentes-container-item__text-title">
               2. Inversores
             </h2>
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               Os inversores para painel solar são dispositivos que convertem a
               energia elétrica gerada pelos painéis solares, que é de corrente
               contínua (DC), em energia elétrica utilizável em casas e empresas,
               que é de corrente alternada (AC).
             </p>
 
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               Os inversores são uma parte essencial de um sistema de energia
               solar fotovoltaica, pois garantem que a energia gerada pelos
               painéis solares possa ser usada de forma eficiente. Eles também
@@ -118,7 +124,7 @@
               contra danos.
             </p>
 
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               Existem vários tipos de inversores para painel solar disponíveis
               no mercado, incluindo inversores centrais, inversores de corda e
               microinversores. Cada tipo de inversor tem suas próprias vantagens
@@ -127,14 +133,15 @@
             </p>
             <a href="#topo">Voltar</a>
           </div>
+          <div class="second-componentes-container-item__img-02"></div>
         </div>
-        <div>
-          <div></div>
-          <div>
-            <h2>
+        <div id="materiais-eletricos"></div>
+        <div class="second-componentes-container-item-3">
+          <div class="second-componentes-container-item__text">
+            <h2 class="second-componentes-container-item__text-title">
               3. Materiais elétricos
             </h2>
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               Para montar uma estrutura de painel solar, você precisará de
               algumas ferramentas e equipamentos básicos, como: Furadeira
               elétrica - para perfurar furos nas vigas ou pilares onde serão
@@ -156,14 +163,15 @@
             </p>
             <a href="#topo">Voltar</a>
           </div>
+          <div class="second-componentes-container-item__img-03"></div>
         </div>
-        <div>
-          <div></div>
-          <div>
-            <h2>
+        <div id="disjuntores"></div>
+        <div class="second-componentes-container-item-4">
+          <div class="second-componentes-container-item__text">
+            <h2 class="second-componentes-container-item__text-title">
               4. Disjuntores
             </h2>
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               Os disjuntores para painel solar são dispositivos de segurança que
               são instalados em sistemas de energia solar fotovoltaica para
               proteger os painéis solares e outros componentes do sistema contra
@@ -185,14 +193,15 @@
             </p>
             <a href="#topo">Voltar</a>
           </div>
+          <div class="second-componentes-container-item__img-04"></div>
         </div>
-        <div>
-          <div></div>
-          <div>
-            <h2>
+        <div id="conectores"></div>
+        <div class="second-componentes-container-item-5">
+          <div class="second-componentes-container-item__text">
+            <h2 class="second-componentes-container-item__text-title">
               5. Conectores e Cabeamento
             </h2>
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               Os conectores e cabos são componentes importantes de um sistema de
               energia solar fotovoltaica, que permitem a conexão elétrica entre
               os painéis solares, os inversores, as baterias e outros
@@ -218,14 +227,15 @@
             </p>
             <a href="#topo">Voltar</a>
           </div>
+          <div class="second-componentes-container-item__img-05"></div>
         </div>
-        <div>
-          <div></div>
-          <div>
-            <h2>
+        <div id="estrutura"></div>
+        <div class="second-componentes-container-item-6">
+          <div class="second-componentes-container-item__text">
+            <h2 class="second-componentes-container-item__text-title">
               6. Estrutura
             </h2>
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               A estrutura para painéis solares é um componente importante em um
               sistema de energia solar fotovoltaica, pois ela suporta os painéis
               solares e os mantém na posição correta para receber a maior
@@ -249,14 +259,15 @@
             </p>
             <a href="#topo">Voltar</a>
           </div>
+          <div class="second-componentes-container-item__img-06"></div>
         </div>
-        <div>
-          <div></div>
-          <div>
-            <h2>
+        <div id="medidor"></div>
+        <div class="second-componentes-container-item-7">
+          <div class="second-componentes-container-item__text">
+            <h2 class="second-componentes-container-item__text-title">
               7. Medidor Bidirecional
             </h2>
-            <p>
+            <p class="second-componentes-container-item__text-parag">
               O medidor bidirecional é um componente importante em um sistema de
               energia solar fotovoltaica conectado à rede elétrica, que mede a
               quantidade de energia elétrica que é gerada pelos painéis solares
@@ -284,48 +295,57 @@
             </p>
             <a href="#topo">Voltar</a>
           </div>
+          <div class="second-componentes-container-item__img-07"></div>
         </div>
-        <div>
-          <div></div>
-          <div>
-            <h2>
-              8. Monitoramento de energia
-            </h2>
-            <p>
-              O monitoramento da energia solar é uma parte importante da
-              manutenção e gestão de um sistema de energia solar fotovoltaica. O
-              monitoramento permite que o proprietário da instalação verifique o
-              desempenho do sistema, identifique eventuais problemas e otimize o
-              uso da energia solar. Existem diferentes formas de monitoramento
-              da energia solar, desde opções simples até sistemas mais avançados
-              e automatizados. Alguns dos métodos mais comuns de monitoramento
-              são: Monitoramento manual: Nesse método, o proprietário da
-              instalação registra regularmente a quantidade de energia elétrica
-              gerada pelo sistema solar fotovoltaico e a compara com o consumo
-              da instalação. Esse método pode ser útil para detectar eventuais
-              problemas no sistema ou falhas de conexão. Monitoramento remoto
-              via software: Existem softwares de monitoramento que permitem ao
-              proprietário da instalação verificar o desempenho do sistema solar
-              fotovoltaico em tempo real, através de um aplicativo ou plataforma
-              online. Esses softwares permitem monitorar dados como a quantidade
-              de energia elétrica gerada, a temperatura dos painéis solares, a
-              tensão do sistema e outras informações importantes. Monitoramento
-              automatizado: Esse método é mais avançado e pode ser integrado ao
-              sistema de gestão do sistema solar fotovoltaico. Sensores e
-              dispositivos de monitoramento automático coletam dados em tempo
-              real e enviam as informações para um sistema central de
-              gerenciamento, que pode ser acessado pelo proprietário da
-              instalação através de um aplicativo ou plataforma online. Esse
-              método é ideal para instalações maiores ou para quem deseja ter um
-              controle mais automatizado e preciso do desempenho do sistema.
-              Independentemente do método de monitoramento escolhido, é
-              importante manter um registro regular dos dados de desempenho do
-              sistema solar fotovoltaico e fazer a manutenção adequada do
-              sistema para garantir a eficiência e a durabilidade do sistema.
-            </p>
-            <a href="#topo">Voltar</a>
+        <div id="monitoramento"></div>
+        <div class="second-componentes-container-item-8-cont" >
+          
+          <div class="second-componentes-container-item-8">
+            <div class="second-componentes-container-item__text">
+              <h2 class="second-componentes-container-item__text-title">
+                8. Monitoramento de energia
+              </h2>
+              <p class="second-componentes-container-item__text-parag">
+                O monitoramento da energia solar é uma parte importante da
+                manutenção e gestão de um sistema de energia solar fotovoltaica. O
+                monitoramento permite que o proprietário da instalação verifique o
+                desempenho do sistema, identifique eventuais problemas e otimize o
+                uso da energia solar. Existem diferentes formas de monitoramento
+                da energia solar, desde opções simples até sistemas mais avançados
+                e automatizados. Alguns dos métodos mais comuns de monitoramento
+                são: Monitoramento manual: Nesse método, o proprietário da
+                instalação registra regularmente a quantidade de energia elétrica
+                gerada pelo sistema solar fotovoltaico e a compara com o consumo
+                da instalação. Esse método pode ser útil para detectar eventuais
+                problemas no sistema ou falhas de conexão.
+              
+              
+            </div>
+            <div class="second-componentes-container-item__img-08"></div>
           </div>
-        </div>
+          <p>
+                Monitoramento remoto
+                via software: Existem softwares de monitoramento que permitem ao
+                proprietário da instalação verificar o desempenho do sistema solar
+                fotovoltaico em tempo real, através de um aplicativo ou plataforma
+                online. Esses softwares permitem monitorar dados como a quantidade
+                de energia elétrica gerada, a temperatura dos painéis solares, a
+                tensão do sistema e outras informações importantes. Monitoramento
+                automatizado: Esse método é mais avançado e pode ser integrado ao
+                sistema de gestão do sistema solar fotovoltaico. Sensores e
+                dispositivos de monitoramento automático coletam dados em tempo
+                real e enviam as informações para um sistema central de
+                gerenciamento, que pode ser acessado pelo proprietário da
+                instalação através de um aplicativo ou plataforma online. Esse
+                método é ideal para instalações maiores ou para quem deseja ter um
+                controle mais automatizado e preciso do desempenho do sistema.
+                Independentemente do método de monitoramento escolhido, é
+                importante manter um registro regular dos dados de desempenho do
+                sistema solar fotovoltaico e fazer a manutenção adequada do
+                sistema para garantir a eficiência e a durabilidade do sistema.
+              </p>
+              <a href="#topo">Voltar</a>
+            </div>
       </section>
     </main>
     <footer><center>G4W3&copy 2023</center></footer>

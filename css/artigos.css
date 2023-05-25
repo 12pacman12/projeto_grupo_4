@@ -1,0 +1,250 @@
+body {
+  background: #f2f2f2;
+  width: 100%;
+  height: 100vh;
+  max-width: 1512 px;
+  margin: 0 auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main a {
+  color: #333333;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.container {
+  margin-top: 140px;
+}
+
+.titulo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.titulo-container p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.pai01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao01 {
+  display: flex;
+  background-color: #3686c3;
+  width: 1060px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.artigo01 img {
+  width: 400px;
+  height: 70 47px;
+  margin: 0 26px 0 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.um {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.espaço02 {
+  height: 52px;
+}
+
+.pai02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao02 {
+  display: flex;
+  background-color: #3686c3;
+  width: 1060px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 52px 0;
+  border-radius: 10px;
+}
+
+.artigo02 img {
+  width: 400px;
+  height: 70 47px;
+  margin: 0 26px 0 30px;
+}
+
+.dois {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.espaço03 {
+  height: 52px;
+}
+
+.pai03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao03 {
+  display: flex;
+  background-color: #3686c3;
+  width: 1060px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 52px 0;
+  border-radius: 10px;
+}
+
+.artigo03 img {
+  width: 400px;
+  height: 70 47px;
+  margin: 0 26px 0 30px;
+}
+
+.tres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.espaço04 {
+  height: 52px;
+}
+
+.pai04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao04 {
+  display: flex;
+  background-color: #3686c3;
+  width: 1060px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 52px 0;
+  border-radius: 10px;
+}
+
+.artigo04 img {
+  width: 400px;
+  height: 200px;
+  margin: 0 26px 0 30px;
+}
+
+.quatro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.espaço05 {
+  height: 52px;
+}
+
+.pai05 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao05 {
+  display: flex;
+  background-color: #3686c3;
+  width: 1060px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 52px 0;
+  border-radius: 10px;
+}
+
+.artigo05 img {
+  width: 400px;
+  height: 70 47px;
+  margin: 0 26px 0 30px;
+}
+
+.cinco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.espaço06 {
+  height: 52px;
+}
+
+.pai06 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sessao06 {
+  display: flex;
+  background-color: #3686c3;
+  width: 1060px;
+  height: 320px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 52px 0;
+  border-radius: 10px;
+}
+
+.artigo06 img {
+  width: 400px;
+  height: 70 47px;
+  margin: 0 26px 0 30px;
+}
+
+.seis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

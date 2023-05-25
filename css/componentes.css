@@ -1,0 +1,477 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+.second-componentes-container p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  /* margin-right: 20px; */
+}
+
+
+.first-container {
+  width: 1170px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: #aed3f2; */
+  border-radius: 10px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: -2;
+}
+
+.design {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.third-container__title {
+  width: 680px;
+  height: 140px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  transform: translate(0px, -350px);
+  margin-top: 80px;
+}
+
+.third-container a {
+  text-decoration: none;
+  /* color: #e92b2b; */
+}
+
+.circulo-borda {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border: solid 20px #f2b705;
+  border-radius: 100%;
+}
+
+.circulo-maior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #f2b705;
+  border-radius: 100%;
+}
+
+.circulo-menor-1 {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(0px, -240px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-menor-2 {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(170px, -170px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-menor-3 {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(170px, 170px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-menor-4 {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(-170px, 170px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-menor-5 {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(0px, 240px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-menor-6 {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(-170px, -170px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-menor-7 {
+  position: absolute;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(-240px, 0px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.circulo-menor-8 {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #f2b705;
+  transform: translate(240px, 0px);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tronco-1 {
+  position: absolute;
+  transform: translate(0px, 150px);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -1;
+}
+
+.tronco-2 {
+  position: absolute;
+  transform: translate(0px, -150px);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -1;
+}
+
+.tronco-3 {
+  position: absolute;
+  transform: translate(120px, 0px) rotate(90deg);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -1;
+}
+
+.tronco-4 {
+  position: absolute;
+  transform: translate(-120px, 0px) rotate(90deg);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -1;
+}
+.tronco-5 {
+  position: absolute;
+  transform: translate(120px, 120px) rotate(-45deg);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -999;
+}
+
+.tronco-6 {
+  position: absolute;
+  transform: translate(-120px, -120px) rotate(-45deg);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -999;
+}
+
+.tronco-7 {
+  position: absolute;
+  transform: translate(-120px, 120px) rotate(45deg);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -1;
+}
+
+.tronco-8 {
+  position: absolute;
+  transform: translate(120px, -120px) rotate(45deg);
+  width: 20px;
+  height: 150px;
+  background: #f2b705;
+  z-index: -1;
+}
+
+.circulo-texto {
+  font-size: 45px;
+  font-weight: 700;
+  z-index: 999;
+}
+
+.sun {
+  width: 150px;
+}
+
+.second-section {
+  margin-top: 350px;
+}
+
+.componentes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 400px; */
+  }
+  
+  .componentes-container__title {
+    width: 680px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    transform: translate(0px, -300px);
+  }
+  .first-componentes-container-design {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-340px, 100px);
+    /* z-index: 1; */
+  }
+  
+  .first-componentes-container {
+    width: 1170px;
+    height: 863px;
+    border-radius: 10px;
+    background: #aed3f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* .second-componentes-container {
+    width: 1170px;
+    height: 863px;
+    border-radius: 10px;
+    background: #aed3f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  } */
+  
+  .second-componentes-container-item {
+    width: 1130px;
+    height: 460px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-3 {
+    width: 1130px;
+    height: 640px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-4 {
+    width: 1130px;
+    height: 640px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-5 {
+    width: 1130px;
+    height: 750px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-6{
+    width: 1130px;
+    height: 750px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-7{
+    width: 1130px;
+    height: 800px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .second-componentes-container-item-8-cont {
+    width: 1130px;
+    height: 900px;
+    background: #aed3f2;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+
+  }
+
+  .second-componentes-container-item-8{
+    display: flex;
+    /* border: solid 20px #aed3f2; */
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+  }
+  
+  .second-componentes-container__inversores {
+    width: 1130px;
+    height: 600px;
+    border-radius: 10px;
+    border: solid 20px #aed3f2;
+    background: #aed3f2;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .second-componentes-container-item__text{
+    width: 700px;
+    height: 335px;
+    /* margin-left: 30px; */
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .second-componentes-container-item__text-title {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  
+  .second-componentes-container-item__img-01 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/painel-solar.jpg);
+    background-size: cover;
+  }
+  
+  .second-componentes-container-item__img-02 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/inversores.webp);
+    background-size: cover;
+  }
+  
+  .second-componentes-container-item__img-03 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/materiais-eletricos.webp);
+    background-size: cover;
+  }
+  
+  .second-componentes-container-item__img-04 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/disjuntor.webp);
+    background-size: cover;
+  }
+  
+  .second-componentes-container-item__img-05 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/conectores-cabeamento.webp);
+    background-size: cover;
+  }
+  
+  .second-componentes-container-item__img-06 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/estrutura.png);
+    background-size: cover;
+  }
+  
+  .second-componentes-container-item__img-07 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/medidor.jpg);
+    background-size: cover;
+  }
+  
+  .second-componentes-container-item__img-08 {
+    height: 464px;
+    width: 440px;
+    border-radius: 10px;
+    background: url(../img/monitoramento.jpg);
+    background-size: cover;
+    margin: 0 0 20px 20px;
+  }
+
+  #paineis, #inversores, #materiais-eletricos, #disjuntores, #conectores, #estrutura, #medidor, #monitoramento {
+    height: 100px;
+  }

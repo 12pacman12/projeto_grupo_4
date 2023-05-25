@@ -1,0 +1,95 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+  height: calc(100vh - 57.5px - 120px);
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-cadastro {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.conteiner {
+  display: flex;
+  width: 1170px;
+  height: 100%;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 3rem; */
+  margin: 53px;
+}
+.conteudo p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 30px;
+}
+
+form,
+#message-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 50%;
+  background-color: #b6dfb0;
+  padding: 30px;
+  border-radius: 10px;
+  /* gap: 1rem; */
+}
+
+label {
+  margin: 20px 0 10px 0;
+}
+
+input {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.teste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+.btn {
+  color: white;
+  text-decoration: none;
+  background-color: #d19804;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 5px 20px;
+  border: solid 2px #333333;
+  margin: 20px 0;
+}
+
+.btn:hover {
+  color: #d19804;
+  background-color: white;
+}
+
+#message-section {
+  display: none;
+}
+
+#nome-usuario {
+  font-weight: bold;
+}
+
+#fotovolts {
+  font-weight: bold;
+}

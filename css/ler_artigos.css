@@ -1,0 +1,162 @@
+
+body{
+  font-family: "Quicksand", sans-serif;
+}
+
+header{
+background: #006dc5;
+height: 80px;
+position: fixed;
+top: 0;
+width: 100%;
+font-family: "Quicksand", sans-serif;
+z-index: 999;
+}
+
+.logo-container{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1170px;
+    align-items:center;
+}
+
+.logo-container__img{
+    display: flex;
+    width: 230px;
+    height: 60px;
+    margin-top: 8px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+   
+}
+
+li{
+    background: #6fbf77;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 35px;
+    width: 120px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+nav li a{
+    color:#f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+
+main{
+    padding-top: 25px;
+    padding-left: 12px;
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+section{
+ width: 1170px;
+   
+}
+
+main h1{
+    color:#006dc5;
+    font-size: 2rem;  
+    margin-top: px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: px;
+    box-shadow: 2px 2px 2px #3904fa5b;
+    font-size: 32px;
+}
+
+main h4{
+    color:aliceblue;
+    padding-bottom:10px;  
+}
+
+.h4-h5 {
+    background-color: #006dc5;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-right: 840px;
+    margin-bottom: 40px;
+    padding-top: 15px; 
+    padding-left: 35px;  
+    padding-right: 45px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #070101;
+}
+
+.container-00 {
+    display: flex;   
+    justify-content: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.img-00{
+    width: 400px;
+    height:250px;
+    border-radius: 10px;
+}
+
+.p-1{
+    margin-left:15px;
+}
+
+.container-01 {
+    display: flex;   
+    justify-content: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.img-01{
+    width: 400px;
+    height:230px;
+    border-radius: 10px;
+}
+
+.p-2{
+    margin-right:15px;
+}
+
+
+.container-02 {
+    display: flex;   
+    justify-content: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.img-02{
+    width: 400px;
+    height:250px;
+    border-radius: 10px;
+}
+
+.p-2{
+    margin-right:15px;
+}
+
+footer{
+    display: flex;
+    color: #ffffff;
+    height: 58px;
+    background: #011728;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
