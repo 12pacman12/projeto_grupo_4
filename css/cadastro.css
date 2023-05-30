@@ -1,3 +1,8 @@
+* {
+  margin: none;
+  padding: none;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
 }
@@ -15,26 +20,36 @@ main {
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
+  margin-top: 25px;
 }
 
-.conteiner {
+main section {
   display: flex;
-  width: 1170px;
-  height: 886px;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
-.conteudo {
+/* .conteudo{
   display: flex;
   align-items: center;
-  flex-direction: column;
-  /* gap: 3rem; */
-  margin: 53px;
-}
-.conteudo p {
+  flex-direction: column; */
+/* gap: 3rem; */
+/* margin: 53px; */
+/* } */
+/* .conteudo p {
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
   margin: 30px;
+} */
+
+main section p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 1170px;
 }
 
 form,
@@ -48,6 +63,9 @@ form,
   padding: 30px;
   border-radius: 15px;
   /* gap: 1rem; */
+}
+#message-section p {
+  width: 500px;
 }
 
 label {
@@ -72,9 +90,9 @@ input {
   background-color: #d19804;
   border-radius: 20px;
   font-size: 30px;
-  padding: 5px 20px;
-  border: solid 2px #333333;
-  margin: 20px 0;
+  /* padding: 5px 20px; */
+  /* border: solid 2px #333333; */
+  margin: 35px;
 }
 
 .btn:hover {
