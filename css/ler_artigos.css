@@ -108,12 +108,13 @@ main h4{
 
 .img-00{
     width: 400px;
-    height:250px;
+    height:315px;
     border-radius: 10px;
 }
 
 .p-1{
     margin-left:15px;
+    font-size: 1.2rem;
 }
 
 .container-01 {
@@ -125,12 +126,13 @@ main h4{
 
 .img-01{
     width: 400px;
-    height:230px;
+    height:320px;
     border-radius: 10px;
 }
 
 .p-2{
     margin-right:15px;
+    font-size: 1.2rem;
 }
 
 
@@ -143,20 +145,68 @@ main h4{
 
 .img-02{
     width: 400px;
-    height:250px;
+    height:230px;
     border-radius: 10px;
 }
 
-.p-2{
+.p-3{
     margin-right:15px;
+    font-size: 1.2rem;
+}
+dialog::backdrop {
+    background-color: rgba(10, 1, 139, 0.39);
 }
 
+dialog{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0;
+    padding-right: .3rem;
+    border: none;
+    border-radius: .9rem;
+    box-shadow: 0 0 1em rgb(0 0 0 /.8);
+    width: 32%;
+    height: 350px;
+}
+
+#button-close{
+    background: #0356f177;
+    border-radius: .5rem;
+    margin-top: .5rem;
+}
+
+main h2{
+    background: #6fbf777c;
+    margin-left: 700px;
+    margin-right: 200px;
+    margin-top: 150px;
+    padding: .3rem .3rem .3rem .3rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    text-align:center;
+}
+
+.btn{
+    background: #0356f177;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 175px;
+    border-radius: .9rem;
+    margin-left: 790px;
+    margin-right: 200px;
+}
+
+
 footer{
-    display: flex;
-    color: #ffffff;
-    height: 58px;
     background: #011728;
+    color: #ffffff;
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    height: 58px;
+    bottom: 0;
+    margin-top: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
