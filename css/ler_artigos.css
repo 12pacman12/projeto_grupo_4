@@ -1,19 +1,23 @@
 
-body{
-  font-family: "Quicksand", sans-serif;
+body {
+    background: #ffffff;
+    width: 0 auto;
+    margin:0 auto;
+    padding: 0 auto;
+    font-family: "Quicksand", sans-serif;
 }
 
-header{
-background: #006dc5;
-height: 80px;
-position: fixed;
-top: 0;
-width: 100%;
-font-family: "Quicksand", sans-serif;
-z-index: 999;
+header {
+    background: #006dc5;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    z-index: 999;
 }
 
-.logo-container{
+.logo-container { 
     display:flex;
     justify-content: space-between;
     flex-direction: row;
@@ -22,13 +26,13 @@ z-index: 999;
     align-items:center;
 }
 
-.logo-container__img{
+.logo-container__img {
     display: flex;
     width: 230px;
     height: 60px;
     margin-top: 8px;
 }
-ul{
+header nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +40,7 @@ ul{
    
 }
 
-li{
+header nav ul li {
     background: #6fbf77;
     display: flex;
     justify-content: center;
@@ -47,7 +51,7 @@ li{
     border-radius: 10px;
 }
 
-nav li a{
+header nav ul li a {
     color:#f2f2f2;
     text-decoration: none;
     font-size: 18px;
@@ -56,38 +60,34 @@ nav li a{
 }
 
 
-main{
+main {
     padding-top: 25px;
     padding-left: 12px;
-    width: 1170px;
+    width: 1300px;
     margin: 0 auto;
     margin-top: 110px;
 }
 
-section{
- width: 1170px;
-   
-}
 
-main h1{
+main section h1 {
     color:#006dc5;
-    font-size: 2rem;  
-    margin-top: px;
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: px;
-    box-shadow: 2px 2px 2px #3904fa5b;
-    font-size: 32px;
+    font-size: 1.8rem;  
+    margin-top: 4rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: 7rem;
+    padding-right: rem;
+    box-shadow: 2px 2px 2px 2px #3904fa5b;
 }
 
-main h4{
+main section div h4 {
     color:aliceblue;
     padding-bottom:10px;  
 }
 
 .h4-h5 {
     background-color: #006dc5;
-    margin-top: 20px;
+    margin-top: 2rem;
     margin-left: 18px;
     margin-right: 840px;
     margin-bottom: 40px;
@@ -102,80 +102,80 @@ main h4{
 .container-00 {
     display: flex;   
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 2.5rem;
     text-align: justify;
 }
 
-.img-00{
-    width: 400px;
-    height:315px;
-    border-radius: 10px;
+.img-00 {
+    width: 475px;
+    height:300px;
+    border-radius: 1.5rem;
 }
 
-.p-1{
+.p-1 {
     margin-left:15px;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
 .container-01 {
     display: flex;   
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 2.5rem;
     text-align: justify;
 }
 
-.img-01{
-    width: 400px;
-    height:320px;
-    border-radius: 10px;
-}
 
-.p-2{
+.p-2 {
     margin-right:15px;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
+.img-01 {
+    width:450px;
+    height:300px;
+    border-radius: 1.5rem;
+}
 
 .container-02 {
     display: flex;   
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 2.5rem;
     text-align: justify;
 }
 
-.img-02{
-    width: 400px;
-    height:230px;
-    border-radius: 10px;
+.img-02 {
+    width: 480px;
+    height:300px;
+    border-radius: 1.5rem;
 }
 
-.p-3{
+.p-3 {
     margin-right:15px;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
-dialog::backdrop {
-    background-color: rgba(10, 1, 139, 0.39);
+main dialog::backdrop {
+    background-color: rgba(1, 61, 139, 0.39);
 }
 
-dialog{
+main dialog {
     padding-top: 2rem;
     padding-left: 2rem;
-    padding-bottom: 0;
+    padding-bottom: .5rem;
     padding-right: .3rem;
     border: none;
     border-radius: .9rem;
     box-shadow: 0 0 1em rgb(0 0 0 /.8);
-    width: 32%;
+    width: 35%;
     height: 350px;
 }
 
-#button-close{
+#button-close {
     background: #0356f177;
     border-radius: .5rem;
     margin-top: .5rem;
 }
 
-main h2{
+main h2 {
     background: #6fbf777c;
     margin-left: 700px;
     margin-right: 200px;
@@ -186,27 +186,25 @@ main h2{
     text-align:center;
 }
 
-.btn{
+.btn {
     background: #0356f177;
     width: 80px;
     margin-top: 10px;
     margin-bottom: 175px;
-    border-radius: .9rem;
+    border-radius: .5rem;
     margin-left: 790px;
     margin-right: 200px;
 }
 
 
-footer{
+footer {
     background: #011728;
     color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 58px;
-    bottom: 0;
-    margin-top: 30px;
-    position: fixed;
     width: 100%;
+    margin-top: 14.5rem;
     z-index: 999;
 }

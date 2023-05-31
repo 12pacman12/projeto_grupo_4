@@ -40,10 +40,6 @@ const arrayPostagens = [
 
 ]
 
-
-
-
-
 for ( let i = 0; i < arrayPostagens.length; i++) {
 
     let article = document.createElement("article");
