@@ -23,6 +23,7 @@ header {
     flex-direction: row;
     margin: 0 auto;
     width: 1170px;
+    background: #006dc5;
     align-items:center;
 }
 
@@ -32,12 +33,12 @@ header {
     height: 60px;
     margin-top: 8px;
 }
+ 
 header nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
-   
+    padding-top: 10px;  
 }
 
 header nav ul li {
@@ -48,15 +49,14 @@ header nav ul li {
     height: 35px;
     width: 120px;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 10px;  
 }
 
 header nav ul li a {
     color:#f2f2f2;
     text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
-   
+    font-weight: bold;  
 }
 
 

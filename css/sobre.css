@@ -5,10 +5,8 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-header { 
-  display: flex;
+header {
   background: #006dc5;
-  padding-bottom: 16px;
   height: 80px;
   position: fixed;
   top: 0;
@@ -17,13 +15,14 @@ header {
   z-index: 999;
 }
 
-.logo-container {
-  display: flex;
+.logo-container { 
+  display:flex;
   justify-content: space-between;
   flex-direction: row;
   margin: 0 auto;
   width: 1170px;
-  align-items: center;
+  background: #006dc5;
+  align-items:center;
 }
 
 .logo-container__img {
@@ -37,10 +36,10 @@ header nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 10px;  
 }
 
-header nav ul li { 
+header nav ul li {
   background: #6fbf77;
   display: flex;
   justify-content: center;
@@ -48,14 +47,14 @@ header nav ul li {
   height: 35px;
   width: 120px;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 10px;  
 }
-    
- header nav ul li a {
-    color:#f2f2f2;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold; 
+
+header nav ul li a {
+  color:#f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;  
 }
 
 main {
