@@ -111,3 +111,45 @@ input {
 #fotovolts {
   font-weight: bold;
 }
+label:not(:first-of-type) {
+  margin-top: 1rem;
+}
+
+.helper-text {
+  display: none;
+  font-size: 0.8rem;
+  color: darkred;
+}
+
+/* Estilos dinâmicos */
+
+.required-popup::after {
+  content: "*Campo obrigatório";
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  margin-right: 530px;
+  margin-top: 10px;
+  color: #dfdfdf;
+  font-size: 0.65rem;
+  padding: 0.7rem 0.3rem;
+  width: auto;
+  display: block;
+  background-color: #202020;
+}
+
+input.error {
+  border: solid 2px #992020;
+  background-color: #ccbbbb;
+  color: #662020;
+}
+
+input.correct {
+  background-color: #bbccbb;
+  border: solid 2px #206620;
+  color: #205620;
+}
+
+.visible {
+  display: block;
+}
